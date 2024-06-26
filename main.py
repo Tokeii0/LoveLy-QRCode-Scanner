@@ -46,9 +46,9 @@ if __name__ == '__main__':
 
     img_dir = r'test'
     grayscale_options = [True]
-    contrast_options = [1, 2, 3, 4, 5]
-    brightness_options = [-50, 0, 50]
-    blur_options = [7, 3, 5, 0, 9, 11, 13, 15, 17, 25]
+    contrast_options = [1, 2, 3, 4, 5,7,9,11]
+    brightness_options = [-100, -50, 0, 50, 100]
+    blur_options = [7, 3, 5, 0, 9, 11, 13, 15, 17, 25,27,29,31]
 
     size_ratios = [0.2, 0.1, 0.3]  # Ratios for original size, 50%, 30%, and 10%
 
