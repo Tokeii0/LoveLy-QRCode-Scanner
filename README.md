@@ -1,0 +1,1 @@
+# LoveLy-QRCode-Scanner
