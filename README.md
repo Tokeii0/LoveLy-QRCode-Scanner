@@ -1,6 +1,12 @@
 # LoveLy-QRCode-Scanner
-### 基于 WeChatCV/opencv_3rdparty 的Python解码脚本
-调用了WeChatCV/opencv_3rdparty的解码模型,然后对图片进行，亮度、对比度、模糊度调整，爆破解码
+
+### 这是干啥的
+
+对二维码进行爆破解码的脚本，主要用来解码看不清或者微信无法正常扫描的AI生成的二维码
+
+参考了[qrcode-toolkit](https://github.com/antfu/qrcode-toolkit)项目的解码功能
+
+同样调用了[WeChatCV/opencv_3rdparty](https://github.com/WeChatCV/opencv_3rdparty)的解码模型,然后对图片进行，亮度、对比度、模糊度调整，爆破解码
 
 对AI生成的二维码有奇效
 
