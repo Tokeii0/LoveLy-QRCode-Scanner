@@ -11,10 +11,11 @@
 对AI生成的二维码有奇效
 
 ### 例子
-![2bf23c10108f5b7887128cdca7d6775f](https://github.com/Tokeii0/LoveLy-QRCode-Scanner/assets/111427585/92dc041e-af95-4dcc-bc16-7ef7f1de8a3a)
+![QQ_1720310787282](https://github.com/Tokeii0/LoveLy-QRCode-Scanner/assets/111427585/2704c4dd-e813-4186-9177-f6af81dcb6e1)
 
-![1beec49cb901b4d17c607fc5b5536852](https://github.com/Tokeii0/LoveLy-QRCode-Scanner/assets/111427585/2648034d-8806-49a8-89d5-44b33e9ab37c)
+![QQ_1720310899349](https://github.com/Tokeii0/LoveLy-QRCode-Scanner/assets/111427585/6470f094-4a1b-4f01-ae03-a076d29f7f38)
 
+![QQ_1720311062281](https://github.com/Tokeii0/LoveLy-QRCode-Scanner/assets/111427585/cbfc3ce4-1715-4740-aec3-abba80327b87)
 
 ### 关于版本
 
@@ -28,9 +29,11 @@ opencv-python                            4.7.0.72
 
 ### 使用方法
 
-`python gui.py`
-
-或者自己改改代码用main.py
+```
+python Gui_AutoVer.py #自动爆破版本
+python Cli_AutoVer.py file [-arg] #命令行版本
+python Gui_ManualVer.py #手动调参版本
+```
 
 然后拖入文件
 
