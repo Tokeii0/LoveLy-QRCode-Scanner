@@ -25,6 +25,8 @@
 python 3.10.11 
 opencv-contrib-python                    4.7.0.72
 opencv-python                            4.7.0.72
+
+pip install opencv-contrib-python==4.7.0.72 opencv-python==4.7.0.72 pyside6 numpy
 ```
 
 ### 使用方法
