@@ -142,5 +142,7 @@ if __name__ == '__main__':
     srcaf = 'model/sr.caffemodel'
 
     imgdata = cv2.imread(args.image)
+    if imgdata is None:
+        parser.error(f"无法读取图像文件:{args.image},请检查文件是否存在或格式是否支持")
     decoder = DecodeThread(imgdata, args.image, [True], [2, 1, 3], [-75, 75, -50, -25, -10, 0, 25, 50], [-7, -3, 7, 3, -1, 5, 9, 11, 13, 15, 17, 19, 21, 23, 25], [0.2, 0.5, 0.7, 0.9, 1.3, 2.0], expected_count=args.expected_count, randomize=args.randomize, invert_option=args.invert, show_grayscale=args.grayscale)
     decoder.brute_force_decode()
